@@ -39,6 +39,10 @@ android {
 }
 
 dependencies {
+    implementation("com.android.volley:volley:1.2.1")
+    implementation("com.squareup.picasso:picasso:2.71828")
+    implementation("androidx.fragment:fragment-ktx:1.4.1")
+    implementation("com.google.android.gms:play-services-location:19.0.1")
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
